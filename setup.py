@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='Integration_hosts',
+    name='hostsfile',
     install_requires=["requests"],
     version='1.0.0',
     packages=['hostsfile'],
