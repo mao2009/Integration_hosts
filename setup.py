@@ -7,7 +7,7 @@ setup(
     packages=['hostsfile'],
     url='',
     license='BSD',
-    author='entrp',
+    author='mao2009',
     author_email='',
     description=''
 )
