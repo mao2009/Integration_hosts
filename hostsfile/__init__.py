@@ -1,4 +1,6 @@
+# For python2
 from __future__ import print_function
+from io import open
 
 import os
 import requests
@@ -38,7 +40,7 @@ class HostsIntegrator(object):
 
         if comments is None:
             comments = []
-        with open(self.__write_path, "w", encoding="utf-8") as fp:
+        with open(self.__write_path, "w",  encoding="utf-8") as fp:
             for comment in comments:
                 if not comment.startswith("#"):
                     comment = "#" + comment
